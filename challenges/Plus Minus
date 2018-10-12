@@ -1,0 +1,39 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the plusMinus function below.
+def plusMinus(arr):
+    noPositive=0
+    noNegative=0
+    noZero=0
+    
+    for i in arr:
+
+        if (i>=1):
+            noPositive+=1
+        elif (i==0):
+            noNegative+=1
+        elif (i<0):
+            noZero+=1
+    
+    positivePercentage=(noPositive/(len(arr)))
+    negativePercentage=(noNegative/(len(arr)))
+    zeroPercentage=(noZero/(len(arr)))
+
+    print (positivePercentage)
+    print(zeroPercentage)
+    print (negativePercentage)
+
+
+
+if __name__ == '__main__':
+    n = int(input())
+
+    arr = list(map(int, input().rstrip().split()))
+
+    plusMinus(arr)
