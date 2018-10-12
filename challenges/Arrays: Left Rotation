@@ -1,0 +1,41 @@
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the rotLeft function below.
+def rotLeft(a, d): #Start of code submission
+    resultArray=[]
+    loopCounter=d
+
+    
+
+    for i in a:
+        if (i==a[0]):
+            resultArray.append(a[loopCounter])
+            continue
+        
+        loopCounter+=1
+        resultArray.append(a[loopCounter-(len(a))])
+    
+
+    return (resultArray) #End of code submission
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    nd = input().split()
+
+    n = int(nd[0])
+
+    d = int(nd[1])
+
+    a = list(map(int, input().rstrip().split()))
+
+    result = rotLeft(a, d)
+
+    fptr.write(' '.join(map(str, result)))
+    fptr.write('\n')
+
+    fptr.close()
