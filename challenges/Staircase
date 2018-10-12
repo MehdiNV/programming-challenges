@@ -1,0 +1,41 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the staircase function below.
+def staircase(n):
+    
+    
+    stringOutput="#"
+    spaceCharacters=" "
+    spacePosition=1
+
+    stringOutput=((spaceCharacters*(n-spacePosition)) + "#")
+
+    initialCharacter="#"
+
+    stringHorziontal=2
+    spacePosition+=1
+
+    for i in range(1,n):
+    
+        stringOutput += ("\n" + (spaceCharacters*(n-spacePosition))+ (stringHorziontal*initialCharacter))
+
+        stringHorziontal+=1
+        spacePosition+=1
+
+    print(stringOutput)
+
+
+
+
+
+
+if __name__ == '__main__':
+    n = int(input())
+
+    staircase(n)
