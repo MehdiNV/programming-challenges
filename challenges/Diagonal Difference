@@ -1,0 +1,55 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the diagonalDifference function below.
+def diagonalDifference(arr): #Start of code submission
+    columnAndRow=arr[0]
+
+    leftDiag=0
+    rightDiag=0
+
+    leftPointer=0
+    rightPointer=(len(arr[0])-1)
+
+    for i in range(0,len(arr[0])):
+        for j in range(0,len(arr[0])):
+            if (j==leftPointer):
+                leftDiag+=arr[i][j]
+
+            if(j==rightPointer):
+                rightDiag+=arr[i][j]
+
+        leftPointer+=1
+        rightPointer-=1
+
+    print(leftPointer)
+    print (rightPointer)
+    print()
+
+    print (leftDiag)
+    print (rightDiag)
+
+    return (abs(rightDiag-leftDiag))
+    
+    #End of code submission
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input())
+
+    arr = []
+
+    for _ in range(n):
+        arr.append(list(map(int, input().rstrip().split())))
+
+    result = diagonalDifference(arr)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
