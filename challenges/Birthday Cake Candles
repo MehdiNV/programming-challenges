@@ -12,8 +12,8 @@ def birthdayCakeCandles(ar):
     counter=0       #Variable counter that checks the number of times 
 
     for i in ar:   
-        if (i==tallest):
-            counter+=1
+        if (i==tallest): #Checks if i is equal to the biggest candle/item 
+            counter+=1   #If so, increment the counter
 
     return (counter)
 
