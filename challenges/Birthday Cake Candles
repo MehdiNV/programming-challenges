@@ -8,10 +8,10 @@ import sys
 
 # Complete the birthdayCakeCandles function below.
 def birthdayCakeCandles(ar):
-    tallest=max(ar)
-    counter=0
+    tallest=max(ar) #Finds the biggest integer in the array and holds it at the variable 'tallest'
+    counter=0       #Variable counter that checks the number of times 
 
-    for i in ar:
+    for i in ar:   
         if (i==tallest):
             counter+=1
 
