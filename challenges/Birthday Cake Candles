@@ -18,6 +18,8 @@ she will be able to blow out 2 candles successfully, since the tallest candles a
 
 
 #Answer submission starts here --------------
+#Author: Mehdi Naderi Varandi
+
 # Complete the birthdayCakeCandles function below.
 def birthdayCakeCandles(ar):
     tallest=max(ar) #Finds the biggest integer in the array and holds it at the variable 'tallest'
