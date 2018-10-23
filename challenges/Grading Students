@@ -34,7 +34,6 @@ def gradingStudents(grades):
         if (i>37):
             nextMultiple=round(i*2,-1)/2 
             nextMultiple=int(nextMultiple)
-            print(i,nextMultiple)
 
             if ((nextMultiple-i)<=3) and ((nextMultiple-i)>0):
                 answer.append(nextMultiple)
