@@ -1,0 +1,45 @@
+#!/bin/python3
+
+import os
+import sys
+
+#
+# Complete the gradingStudents function below.
+#
+def gradingStudents(grades):
+    roundingMargin=3
+    answer=[]
+
+    for i in grades:
+        if (i>37):
+            nextMultiple=round(i*2,-1)/2 
+            nextMultiple=int(nextMultiple)
+            print(i,nextMultiple)
+
+            if ((nextMultiple-i)<=3) and ((nextMultiple-i)>0):
+                answer.append(nextMultiple)
+            else:
+                answer.append(i)
+
+        else:
+            answer.append(i)
+        
+    return(answer)
+
+if __name__ == '__main__':
+    f = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input())
+
+    grades = []
+
+    for _ in range(n):
+        grades_item = int(input())
+        grades.append(grades_item)
+
+    result = gradingStudents(grades)
+
+    f.write('\n'.join(map(str, result)))
+    f.write('\n')
+
+    f.close()
