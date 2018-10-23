@@ -26,10 +26,11 @@ Given the initial value of grade for each of Sam's n students, write code to aut
 # Author: Mehdi Naderi Varandi
 
 def gradingStudents(grades):
-    roundingMargin=3
-    answer=[]
+    roundingMargin=3 #holds the rounding margin e.g. if the next multiple is less than 3/roundingMargin
+    answer=[]        #array for holding the answers and returning them later
 
     for i in grades:
+        
         if (i>37):
             nextMultiple=round(i*2,-1)/2 
             nextMultiple=int(nextMultiple)
