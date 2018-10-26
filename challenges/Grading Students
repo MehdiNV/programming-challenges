@@ -31,7 +31,7 @@ def gradingStudents(grades):
 
     for i in grades:
         
-        if (i>37):
+        if (i>37): #Nothing less than 37 is rounded up (e.g. 36 stays 36 according to specification)
             nextMultiple=round(i*2,-1)/2  #Conversion process to get the next multiple of 5
             nextMultiple=int(nextMultiple) #holds the next multiple of 5
 
