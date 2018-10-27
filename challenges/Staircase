@@ -22,6 +22,8 @@ import re
 import sys
 
 # Complete the staircase function below.
+# Solution for the Staircase problem
+# Author: Mehdi Naderi Varandi
 def staircase(n):
     
     
