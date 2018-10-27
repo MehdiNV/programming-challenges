@@ -13,6 +13,8 @@ import re
 import sys
 
 # Complete the plusMinus function below.
+# Author: Mehdi Naderi Varandi
+
 def plusMinus(arr):
     noPositive=0
     noNegative=0
