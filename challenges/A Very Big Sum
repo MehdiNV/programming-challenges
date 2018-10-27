@@ -17,6 +17,8 @@ import re
 import sys
 
 # Complete the aVeryBigSum function below.
+# Author: Mehdi Naderi Varandi
+
 def aVeryBigSum(ar):
     answer=0
 
