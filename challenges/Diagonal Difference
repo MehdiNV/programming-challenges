@@ -29,6 +29,7 @@ import re
 import sys
 
 # Complete the diagonalDifference function below.
+# Author: Mehdi Naderi Varandi
 def diagonalDifference(arr): #Start of code submission
     columnAndRow=arr[0]
 
