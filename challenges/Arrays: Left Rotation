@@ -18,6 +18,8 @@ import re
 import sys
 
 # Complete the rotLeft function below.
+# Author: Mehdi Naderi Varandi
+
 def rotLeft(a, d): #Start of code submission
     resultArray=[]
     loopCounter=d
