@@ -46,7 +46,8 @@ def staircase(n):
         spacePosition+=1
 
     print(stringOutput)
-
+   
+#End of submission
 
 
 
