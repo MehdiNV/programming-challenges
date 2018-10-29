@@ -38,14 +38,14 @@ def gradingStudents(grades):
             if ((nextMultiple-i)<=3) and ((nextMultiple-i)>0): #Compares i with the next multiple of 5, and sees whether...
                 #...save the rounded up version or not
                 
-                answer.append(nextMultiple)
+                answer.append(nextMultiple) #Rounds up the mark/saves the rounded-up version of the element
             else:
-                answer.append(i)
+                answer.append(i) #Else just save the number without rounding it up
 
         else:
             answer.append(i)
         
-    return(answer)
+    return(answer) #Return answer/all marks
 
 # End of submission -----------------------------------------------------
 
