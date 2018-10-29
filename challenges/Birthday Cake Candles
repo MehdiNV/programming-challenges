@@ -25,11 +25,12 @@ def birthdayCakeCandles(ar):
     tallest=max(ar) #Finds the biggest integer in the array and holds it at the variable 'tallest'
     counter=0       #Variable counter that checks the number of times 
 
-    for i in ar:   
+    for i in ar:   #Goes through each element in the array, checking if that specific element is equal to the tallest element...
+        #...that was recorded before
         if (i==tallest): #Checks if i is equal to the biggest candle/item 
             counter+=1   #If so, increment the counter
 
-    return (counter)
+    return (counter) #Return answer/number of equally tall candles
 
 #End of submission ---------------------------
 
