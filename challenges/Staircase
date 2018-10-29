@@ -27,7 +27,7 @@ import sys
 def staircase(n):
     
     
-    stringOutput="#"
+    stringOutput="#" #String variable used later on to output the # character 
     spaceCharacters=" "
     spacePosition=1
 
@@ -38,14 +38,15 @@ def staircase(n):
     stringHorziontal=2
     spacePosition+=1
 
-    for i in range(1,n):
+    for i in range(1,n): #Goes from each level to N e.g. from 1 to 5 (maximum level)
     
         stringOutput += ("\n" + (spaceCharacters*(n-spacePosition))+ (stringHorziontal*initialCharacter))
-
+        #Outputs line/# elements equal to the relevant number needed at that specific position
+      
         stringHorziontal+=1
         spacePosition+=1
 
-    print(stringOutput)
+    print(stringOutput) #Return answer
    
 #End of submission
 
