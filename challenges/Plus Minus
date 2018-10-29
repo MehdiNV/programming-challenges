@@ -36,8 +36,8 @@ def plusMinus(arr):
     print (positivePercentage)
     print(zeroPercentage)
     print (negativePercentage)
-
-
+    
+#End of submission
 
 if __name__ == '__main__':
     n = int(input())
