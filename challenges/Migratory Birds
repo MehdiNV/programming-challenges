@@ -56,12 +56,15 @@ def migratoryBirds(arr):
     answer.append(typeFour)
     answer.append(typeFive)
 
-    loopCounter=0
+    loopCounter=0 #Counter that can track the bird the lattery array is checking values for
 
     for i in answer:
         loopCounter+=1
         
-        if (i==(max(answer))):
+        if (i==(max(answer))): #Checks if the element is the max in the array
+            #We start from left to right (e.g. typeOne, typeTwo, etc) as the rules of the specification...
+            #...mention that if two birds are equal, then just return the smallest ID. Hence, by starting left-to-right...
+            #...via typeOne to Five, we can ensure we don't have to check if any are equal (just find the first max value first)
             return (loopCounter)
 
 
