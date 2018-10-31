@@ -65,7 +65,7 @@ def migratoryBirds(arr):
             #We start from left to right (e.g. typeOne, typeTwo, etc) as the rules of the specification...
             #...mention that if two birds are equal, then just return the smallest ID. Hence, by starting left-to-right...
             #...via typeOne to Five, we can ensure we don't have to check if any are equal (just find the first max value first)
-            return (loopCounter)
+            return (loopCounter) #Return answer
 
 
 
