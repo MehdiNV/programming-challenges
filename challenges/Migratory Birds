@@ -7,6 +7,8 @@ import re
 import sys
 
 # Complete the migratoryBirds function below.
+# Author: Mehdi Naderi Varandi
+
 def migratoryBirds(arr):
     #There's only 5 types of birds expected
     typeOne=0
