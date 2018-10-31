@@ -27,8 +27,11 @@ There are two each of types 1 and 2, and one sighting of type 3. Pick the lower 
 # Author: Mehdi Naderi Varandi
 
 def migratoryBirds(arr):
-    #There's only 5 types of birds expected
-    typeOne=0
+    #There's only 5 types of birds expected according to specification/input format
+    #So only easy thing needed is just to have 
+    
+    #Sets up the variables
+    typeOne=0 #Each variable records the frequency of the type of bird that appeared
     typeTwo=0
     typeThree=0
     typeFour=0
