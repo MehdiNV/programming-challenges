@@ -37,7 +37,7 @@ def migratoryBirds(arr):
     typeFour=0
     typeFive=0
 
-    for i in arr:
+    for i in arr: #Goes through each element, checking each frequency and incrementing the appropiate variable
         if (i==1):
             typeOne+=1
         elif (i==2):
