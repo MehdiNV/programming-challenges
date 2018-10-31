@@ -49,8 +49,8 @@ def migratoryBirds(arr):
         else:
             typeFive+=1
 
-    answer=[]
-    answer.append(typeOne)
+    answer=[] #Sets up empty list,
+    answer.append(typeOne) #Adds all variables that were previously incremented into the array
     answer.append(typeTwo)
     answer.append(typeThree)
     answer.append(typeFour)
