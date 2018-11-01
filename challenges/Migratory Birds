@@ -51,7 +51,8 @@ def migratoryBirds(arr):
 
     answer=[] #Sets up empty list,
     answer.append(typeOne) #Adds all variables that were previously incremented into the array
-    answer.append(typeTwo)
+    answer.append(typeTwo) #Increments specifically from typeOne to typeFive, so that you can check if the 1st/rarest one is the...
+    #...highest frequency first
     answer.append(typeThree)
     answer.append(typeFour)
     answer.append(typeFive)
