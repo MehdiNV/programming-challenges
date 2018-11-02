@@ -22,7 +22,7 @@ import sys
 def aVeryBigSum(ar):
     answer=0
 
-    for i in ar:
+    for i in ar: #Go through array one by one and increment answer with i
         answer+=i
 
     return (answer)
