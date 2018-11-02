@@ -21,7 +21,7 @@ import sys
 # Author: Mehdi Naderi Varandi
 
 def rotLeft(a, d): #Start of code submission
-    resultArray=[]
+    resultArray=[] #Create blank list at first, where answers would be added in to
     loopCounter=d
 
     
