@@ -25,7 +25,7 @@ def aVeryBigSum(ar):
     for i in ar: #Go through array one by one and increment answer with i
         answer+=i
 
-    return (answer)
+    return (answer) #Return answer (which is now fully incremented/added up)
 
     
 if __name__ == '__main__':
