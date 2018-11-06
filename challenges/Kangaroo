@@ -35,7 +35,8 @@ Constraints:
 # Solution for this problem is as follows
 # Author: Mehdi Naderi Varandi
 def kangaroo(x1, v1, x2, v2):
-
+    # x1, v1: integers, starting position and jump distance for kangaroo 1
+    
     for i in range(0,10000):
         if (x1==x2):
             return ("YES")
