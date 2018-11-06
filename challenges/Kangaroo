@@ -6,7 +6,9 @@ import random
 import re
 import sys
 
+
 # Complete the kangaroo function below.
+# Author: Mehdi Naderi Varandi
 def kangaroo(x1, v1, x2, v2):
 
     for i in range(0,10000):
