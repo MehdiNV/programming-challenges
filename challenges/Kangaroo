@@ -42,10 +42,10 @@ def kangaroo(x1, v1, x2, v2):
     for i in range(0,10000): #Simplest solution to write is literally just to loop through 0 to 1000
         #This is because the constraints are between e.g. (0 or 1) to 10,000 for x1/x2/v1/v2
         
-        if (x1==x2):
-            return ("YES")
+        if (x1==x2): #Checks whether the position of both kangaroo 1 and 2 are equal
+            return ("YES") #If so, then just return YES
 
-        x1+= v1
+        x1+= v1 #Moves the position of kangaroo 1 by v1 meteres
         x2+= v2
 
     return "NO"
