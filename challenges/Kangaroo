@@ -48,7 +48,8 @@ def kangaroo(x1, v1, x2, v2):
         x1+= v1 #Moves the position of kangaroo 1 by v1 meteres
         x2+= v2 #Moves the position of kangaroo 2 by v2 meteres
 
-    return "NO"
+    return "NO" #If this point is reached, then that means that the loop wasn't able to find a time where the...
+    #positions of kangaroo 1 and 2 were equal. In this scenario, the function just returns NO instead
 
 
 
