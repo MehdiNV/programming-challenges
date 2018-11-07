@@ -51,7 +51,7 @@ def diagonalDifference(arr): #Start of code submission
         leftPointer+=1
         rightPointer-=1
 
-    return (abs(rightDiag-leftDiag))
+    return (abs(rightDiag-leftDiag)) #Return absolute difference (irregardless of whether its + or -)
     
     #End of code submission
 
