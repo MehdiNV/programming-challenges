@@ -7,7 +7,8 @@ import re
 import sys
 
 # Complete the countApplesAndOranges function below.
-# Author: Mehdi Naderi
+# Author: Mehdi Naderi Varandi
+
 def countApplesAndOranges(s, t, a, b, apples, oranges):
     #s is the left most point of Sam's house
     #t is the right most point of Sam's house
