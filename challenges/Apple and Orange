@@ -10,12 +10,17 @@ import sys
 # Author: Mehdi Naderi Varandi
 
 def countApplesAndOranges(s, t, a, b, apples, oranges):
-    #s is the left most point of Sam's house
-    #t is the right most point of Sam's house
-    #Hence, Sam's house is between s - t
+    # Arguments are as follows ------------------------
+    
+    #   s is the left most point of Sam's house
+    #   t is the right most point of Sam's house
+    #   Hence, Sam's house is between s - t
 
-    #a is location of Apple tree
-    #b is location of Orange tree
+    #   a is location of Apple tree
+    #   b is location of Orange tree
+    
+    # --------------------------------------------------
+    
     
     appleLocations=[]
     orangeLocations=[]
