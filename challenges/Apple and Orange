@@ -43,6 +43,7 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
         if (i>=s) and (i<=t):
             orangeCounter+=1
 
+    #Output answer
     print (appleCounter)
     print (orangeCounter)
 
