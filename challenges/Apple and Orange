@@ -27,7 +27,9 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
 
     appleCounter=0
     orangeCounter=0
-
+    
+    
+    #Part of code that calculates distances between house and the trees
     for i in apples:
         appleLocations.append(a + i)
 
