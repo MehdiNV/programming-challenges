@@ -44,7 +44,9 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     for i in orangeLocations:
         if (i>=s) and (i<=t):
             orangeCounter+=1
-
+    #-------------------------------------------------------------------
+            
+            
     #Output answer
     print (appleCounter)
     print (orangeCounter)
