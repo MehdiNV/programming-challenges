@@ -7,7 +7,7 @@ import re
 import sys
 
 # Complete the countApplesAndOranges function below.
-# Author: Mehdi
+# Author: Mehdi Naderi
 
 def countApplesAndOranges(s, t, a, b, apples, oranges):
     # Arguments are as follows ------------------------
