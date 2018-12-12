@@ -30,18 +30,18 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     
     
     #Part of code that calculates distances between house and the trees
-    for i in apples:
+    for i in apples: #Iterates through each apple 
         appleLocations.append(a + i)
 
-    for i in oranges:
+    for i in oranges: #Iterates through each orange
         orangeLocations.append(b + i)
 
 
-    for i in appleLocations:
+    for i in appleLocations: #Then, goes through each locations for apple
         if (i>=s) and (i<=t):
             appleCounter+=1
 
-    for i in orangeLocations:
+    for i in orangeLocations: #And repeats the same process for oranges 
         if (i>=s) and (i<=t):
             orangeCounter+=1
     #-------------------------------------------------------------------
